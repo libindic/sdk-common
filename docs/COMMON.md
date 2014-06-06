@@ -24,7 +24,7 @@ The above function `CharacterMap.charCompare(char, char);` accepts two unicode c
 String lang = LanguageDetect.detectLanguage("बॆंगलूरु").get("बॆंगलूरु");
 ```
 
-The above function `LanguageDetect.detectLanguage(String);` accepts unicode string and returns a map <Text, Language>
+The above function `LanguageDetect.detectLanguage(String);` accepts unicode string and returns a map (Text, Language)
  values are :
 
 ```
