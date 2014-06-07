@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.10.+'
+        classpath 'com.android.tools.build:gradle:0.11.+'
     }
 }
 
@@ -14,8 +14,7 @@ android {
     buildToolsVersion "19.1.0"
 
     defaultConfig {
-        packageName "org.silpa.common"
-        minSdkVersion 8
+        minSdkVersion 1
         targetSdkVersion 19
         versionCode 1
         versionName "1.0"
@@ -39,6 +38,4 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:19.+'
-    compile 'com.android.support:appcompat-v7:19.+'
 }
