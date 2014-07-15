@@ -3,18 +3,20 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.11.+'
+        classpath 'com.android.tools.build:gradle:0.12.+'
     }
 }
 
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 19
     buildToolsVersion "19.1.0"
 
     defaultConfig {
+        applicationId "org.silpa.sdk.common"
         minSdkVersion 1
+        //noinspection OldTargetApi
         targetSdkVersion 19
         versionCode 1
         versionName "1.0"
