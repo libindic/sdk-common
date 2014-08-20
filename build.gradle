@@ -42,4 +42,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-//apply from: '../gradle-mvn-push.gradle'
+// Uncomment following code while updating on maven central
+//
+// apply from: '../gradle-mvn-push.gradle'
