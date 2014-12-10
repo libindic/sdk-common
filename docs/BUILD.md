@@ -5,11 +5,11 @@ The library is written with Android Studio and has Gradle support.
 
 ## Including in your project with Gradle
 
-`sdk-common` module of `silpa-android-sdk` is pushed to Maven Central as a AAR, so you just need to add the following dependency to your `build.gradle`.
+`sdk-common` module of `libindic-android-sdk` is pushed to Maven Central as a AAR, so you just need to add the following dependency to your `build.gradle`.
 
     dependencies {
         // Common library
-        compile 'org.silpa:sdk-common:1.0.0@aar'       
+        compile 'org.silpa:sdk-common:1.0.0@aar'
     }
 
 ## Including in your project with Maven
@@ -52,7 +52,7 @@ If you use maven to build your Android project you can simply add a dependency f
     - Android
     - Android Project from existing code
     - Browse to be location of downloaded/cloned project.
-    - Under `New Project Name` , rename to `sdk-common` or `silpa-common` or as you wish instead of "main".
+    - Under `New Project Name` , rename to `sdk-common` or `libindic-common` or as you wish instead of "main".
     - Finish
  
 - Build project 
