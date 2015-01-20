@@ -1,4 +1,4 @@
-SILPA Android SDK common library
+LIBINDIC Android SDK common library
 ================================
 
 Travis : [![Build Status](https://travis-ci.org/Project-SILPA/sdk-common.svg)](https://travis-ci.org/Project-SILPA/sdk-common)
@@ -11,6 +11,6 @@ There are 2 submodules provided by this package:
 2.   LanguageDetect - module provides language detecting capabilities
 
 ### Note :
-1. This module is still under development and is part of SILPA Android SDK
+1. This module is still under development and is part of LIBINDIC Android SDK
 
 

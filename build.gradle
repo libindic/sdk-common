@@ -14,7 +14,7 @@ android {
     buildToolsVersion "19.1.0"
 
     defaultConfig {
-        applicationId "org.silpa.sdk.common"
+        applicationId "org.libindic.sdk.common"
         minSdkVersion 1
         //noinspection OldTargetApi
         targetSdkVersion 19

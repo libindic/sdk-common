@@ -17,6 +17,15 @@ jdk: openjdk7
 notifications:
   email: false
 
+before_install:
+
+  # use gradle 1.12
+  - sudo rm -r /usr/local/gradle
+  - curl -LO http://services.gradle.org/distributions/gradle-1.12-bin.zip
+  - unzip -q gradle-1.12-bin.zip
+  - sudo mv gradle-1.12 /usr/local/gradle
+
+
 install: gradle clean build
 
 script: gradle check
