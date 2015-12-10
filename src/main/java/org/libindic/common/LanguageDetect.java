@@ -1,4 +1,4 @@
-package org.libindic.sdk.common;
+package org.libindic.common;
 
 import java.util.HashMap;
 import java.util.Map;

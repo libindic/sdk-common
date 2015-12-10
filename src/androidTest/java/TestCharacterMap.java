@@ -3,7 +3,7 @@ import android.test.suitebuilder.annotation.LargeTest;
 import android.test.suitebuilder.annotation.MediumTest;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import org.libindic.sdk.common.CharacterMap;
+import org.libindic.common.CharacterMap;
 
 /**
  * Created by sujith on 6/6/14.
